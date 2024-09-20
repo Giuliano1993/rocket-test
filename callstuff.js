@@ -1,0 +1,1 @@
+fetch("http://127.0.0.1:8000/delay/2").then(response => response.text()).then(text => console.log(text));
